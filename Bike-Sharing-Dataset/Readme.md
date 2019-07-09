@@ -51,17 +51,17 @@ extracted and added the corresponding weather and seasonal information. Weather 
 	[1]. Therefore the data can be used for validation of anomaly or event detection algorithms as well.
 
 
-	=========================================
-			__Files__
-	=========================================
+		=========================================
+				__Files__
+		=========================================
 -  Readme.txt
 - hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
 - day.csv - bike sharing counts aggregated on daily basis. Records: 731 days
 
 	
-	=========================================
-		__Dataset characteristics__
-	=========================================	
+		=========================================
+			Dataset characteristics
+		=========================================	
 Both hour.csv and day.csv have the following fields, except hr which is not available in day.csv
 	- instant: record index
 	- dteday : date

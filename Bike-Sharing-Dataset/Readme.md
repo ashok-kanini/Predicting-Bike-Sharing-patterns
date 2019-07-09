@@ -30,7 +30,7 @@ events in the city could be detected via monitoring these data.
 
 
 	=========================================
-			__Data Set__
+		Data Set
 	=========================================
 Bike-sharing rental process is highly correlated to the environmental and seasonal settings. For instance, weather conditions,
 precipitation, day of week, season, hour of the day, etc. can affect the rental behaviors. The core data set is related to  
@@ -41,7 +41,7 @@ extracted and added the corresponding weather and seasonal information. Weather 
 
 
 	=========================================
-			__Associated tasks__
+		Associated tasks
 	=========================================
 
 - Regression: 
@@ -52,7 +52,7 @@ extracted and added the corresponding weather and seasonal information. Weather 
 
 
 		=========================================
-				__Files__
+				Files
 		=========================================
 -  Readme.txt
 - hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours

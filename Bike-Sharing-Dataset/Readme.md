@@ -44,29 +44,25 @@ extracted and added the corresponding weather and seasonal information. Weather 
 			__Associated tasks__
 	=========================================
 
-	- Regression: 
-		Predication of bike rental count hourly or daily based on the environmental and seasonal settings.
-	
-	- Event and Anomaly Detection:  
-		Count of rented bikes are also correlated to some events in the town which easily are traceable via search engines.
-		For instance, query like "2012-10-30 washington d.c." in Google returns related results to Hurricane Sandy. Some of the important events are 
-		identified in [1]. Therefore the data can be used for validation of anomaly or event detection algorithms as well.
+- Regression: 
+	Predication of bike rental count hourly or daily based on the environmental and seasonal settings.
+- Event and Anomaly Detection:  
+	Count of rented bikes are also correlated to some events in the town which easily are traceable via search engines. For instance, query like "2012-10-30 washington d.c." in Google returns related results to Hurricane Sandy. Some of the important events are identified in 
+	[1]. Therefore the data can be used for validation of anomaly or event detection algorithms as well.
 
 
 	=========================================
 			__Files__
 	=========================================
-
-	- Readme.txt
-	- hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
-	- day.csv - bike sharing counts aggregated on daily basis. Records: 731 days
+-  Readme.txt
+- hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
+- day.csv - bike sharing counts aggregated on daily basis. Records: 731 days
 
 	
 	=========================================
 		__Dataset characteristics__
 	=========================================	
 Both hour.csv and day.csv have the following fields, except hr which is not available in day.csv
-	
 	- instant: record index
 	- dteday : date
 	- season : season (1:springer, 2:summer, 3:fall, 4:winter)
@@ -96,7 +92,7 @@ Both hour.csv and day.csv have the following fields, except hr which is not avai
 	
 __Use of this dataset in publications must be cited to the following publication:__
 
-      - Fanaee-T, Hadi, and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, doi:10.1007/s13748-013-0040-3.
+[1] Fanaee-T, Hadi, and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, doi:10.1007/s13748-013-0040-3.
 
 @article{
 	year={2013},
@@ -115,4 +111,4 @@ __Use of this dataset in publications must be cited to the following publication
 			Contact
 	=========================================
 	
-For further information about this dataset please contact Hadi Fanaee-T __(hadi.fanaee@fe.up.pt)__
+For further information about this dataset please contact Hadi Fanaee-T __hadi.fanaee@fe.up.pt__
